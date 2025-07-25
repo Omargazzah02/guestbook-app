@@ -1,0 +1,17 @@
+# Ignorer node_modules pour backend et frontend
+/backend-guestbook/node_modules/
+/frontend-guestbook/node_modules/
+
+# Ignorer fichiers d'environnement
+/backend-guestbook/.env
+/frontend-guestbook/.env
+
+# Ignorer dossier build frontend (Vue.js)
+/frontend-guestbook/dist/
+
+# Ignorer fichiers logs
+*.log
+
+# Ignorer fichiers IDE et OS
+.vscode/
+.DS_Store

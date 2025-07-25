@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --color-background: #E0F2FE;  
+  --color-text: #2563EB;        
+}
+
+
+.form-container {
+  border: 3px solid var(--color-text);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: var(--color-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; align-items: center;
+}
+
+.messages-container {
+  border: 3px solid var(--color-text);
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 95%;
+  max-height: 60vh;
+  overflow-y: auto;
+  background-color: var(--color-background);
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; 
+  justify-content: flex-start;
+}
+
+
+.btn-submit {
+  background-color: var(--color-text);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #1e40af; 
+}
+
+.message-container {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--color-text);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color: white;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 450px;
+  height: 50px;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--color-text);
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
